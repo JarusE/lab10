@@ -1,0 +1,38 @@
+.expense-form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .expense-form__control {
+    flex: 1 1 300px;
+  }
+  
+  .expense-form__control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .expense-form__control input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .expense-form__actions {
+    margin-top: 1rem;
+  }
+  
+  .expense-form__actions button {
+    padding: 0.5rem 1.5rem;
+    background-color: #40005d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .expense-form__actions button:hover {
+    background-color: #510674;
+  }
+  

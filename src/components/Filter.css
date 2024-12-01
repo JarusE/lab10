@@ -1,0 +1,17 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filter label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .filter select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
