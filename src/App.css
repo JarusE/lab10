@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Загальні стилі для всього додатку */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -8,7 +5,6 @@ body {
   padding: 0;
 }
 
-/* Контейнер для основного контенту */
 div {
   max-width: 1200px;
   margin: 20px auto;
@@ -18,7 +14,6 @@ div {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Заголовок */
 h1 {
   text-align: center;
   color: #333;
@@ -26,7 +21,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Стиль для кнопок */
 button {
   font: inherit;
   background-color: #4000ff;
@@ -39,11 +33,11 @@ button {
 }
 
 button:hover {
-  background-color: #5700ff;
+  background-color: #8f8f8f;
   border-color: #5700ff;
 }
 
-/* Стиль для картки витрат */
+
 .expense-item {
   display: flex;
   justify-content: space-between;
@@ -64,7 +58,6 @@ button:hover {
   color: #4000ff;
 }
 
-/* Форма для додавання витрат */
 .form-container {
   margin: 20px 0;
 }
